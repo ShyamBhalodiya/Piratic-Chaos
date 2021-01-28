@@ -24,60 +24,60 @@ function preload() {
     matchbackground = loadImage("backgroud/back.png");
 
     //player1 animation
-    player1idle = loadAnimation("characters/PNG/1/idle1.png", "characters/PNG/1/idle2.png", "characters/PNG/1/idle3.png", "characters/PNG/1/idle4.png",
-        "characters/PNG/1/idle5.png", "characters/PNG/1/idle6.png", "characters/PNG/1/idle7.png");
+    player1idle = loadAnimation("characters/1/idle1.png", "characters/1/idle2.png", "characters/1/idle3.png", "characters/1/idle4.png",
+        "characters/1/idle5.png", "characters/1/idle6.png", "characters/1/idle7.png");
 
-    player1idleleft = loadAnimation("characters/PNG/1/idle1l.png", "characters/PNG/1/idle2l.png", "characters/PNG/1/idle3l.png", "characters/PNG/1/idle4l.png",
-        "characters/PNG/1/idle5l.png", "characters/PNG/1/idle6l.png", "characters/PNG/1/idle7l.png");
+    player1idleleft = loadAnimation("characters/1/idle1l.png", "characters/1/idle2l.png", "characters/1/idle3l.png", "characters/1/idle4l.png",
+        "characters/1/idle5l.png", "characters/1/idle6l.png", "characters/1/idle7l.png");
 
-    player1run = loadAnimation("characters/PNG/1/run1.png", "characters/PNG/1/run2.png", "characters/PNG/1/run3.png", "characters/PNG/1/run4.png",
-        "characters/PNG/1/run5.png", "characters/PNG/1/run6.png", "characters/PNG/1/run7.png");
+    player1run = loadAnimation("characters/1/run1.png", "characters/1/run2.png", "characters/1/run3.png", "characters/1/run4.png",
+        "characters/1/run5.png", "characters/1/run6.png", "characters/1/run7.png");
 
-    player1runleft = loadAnimation("characters/PNG/1/run1l.png", "characters/PNG/1/run2l.png", "characters/PNG/1/run3l.png", "characters/PNG/1/run4l.png",
-        "characters/PNG/1/run5l.png", "characters/PNG/1/run6l.png", "characters/PNG/1/run7l.png");
+    player1runleft = loadAnimation("characters/1/run1l.png", "characters/1/run2l.png", "characters/1/run3l.png", "characters/1/run4l.png",
+        "characters/1/run5l.png", "characters/1/run6l.png", "characters/1/run7l.png");
 
-    player1attack = loadAnimation("characters/PNG/1/attack1.png", "characters/PNG/1/attack2.png", "characters/PNG/1/attack3.png", "characters/PNG/1/attack4.png",
-        "characters/PNG/1/attack5.png", "characters/PNG/1/attack6.png", "characters/PNG/1/attack7.png");
+    player1attack = loadAnimation("characters/1/attack1.png", "characters/1/attack2.png", "characters/1/attack3.png", "characters/1/attack4.png",
+        "characters/1/attack5.png", "characters/1/attack6.png", "characters/1/attack7.png");
 
-    player1attackleft = loadAnimation("characters/PNG/1/attack1l.png", "characters/PNG/1/attack2l.png", "characters/PNG/1/attack3l.png", "characters/PNG/1/attack4l.png",
-        "characters/PNG/1/attack5l.png", "characters/PNG/1/attack6l.png", "characters/PNG/1/attack7l.png");
+    player1attackleft = loadAnimation("characters/1/attack1l.png", "characters/1/attack2l.png", "characters/1/attack3l.png", "characters/1/attack4l.png",
+        "characters/1/attack5l.png", "characters/1/attack6l.png", "characters/1/attack7l.png");
 
-    player1die = loadAnimation("characters/PNG/1/die1.png", "characters/PNG/1/die2.png", "characters/PNG/1/die3.png", "characters/PNG/1/die4.png",
-        "characters/PNG/1/die5.png");
+    player1die = loadAnimation("characters/1/die1.png", "characters/1/die2.png", "characters/1/die3.png", "characters/1/die4.png",
+        "characters/1/die5.png");
 
-    player1jump = loadAnimation("characters/PNG/1/jump1.png", "characters/PNG/1/jump2.png", "characters/PNG/1/jump3.png", "characters/PNG/1/jump4.png",
-        "characters/PNG/1/jump5.png", "characters/PNG/1/jump6.png");
+    player1jump = loadAnimation("characters/1/jump1.png", "characters/1/jump2.png", "characters/1/jump3.png", "characters/1/jump4.png",
+        "characters/1/jump5.png", "characters/1/jump6.png");
 
-    player1jumpleft = loadAnimation("characters/PNG/1/jump1l.png", "characters/PNG/1/jump2l.png", "characters/PNG/1/jump3l.png", "characters/PNG/1/jump4l.png",
-        "characters/PNG/1/jump5l.png", "characters/PNG/1/jump6l.png")
+    player1jumpleft = loadAnimation("characters/1/jump1l.png", "characters/1/jump2l.png", "characters/1/jump3l.png", "characters/1/jump4l.png",
+        "characters/1/jump5l.png", "characters/1/jump6l.png")
 
     //player2 animations
-    player2idle = loadAnimation("characters/PNG/3/idle1.png", "characters/PNG/3/idle2.png", "characters/PNG/3/idle3.png", "characters/PNG/3/idle4.png",
-        "characters/PNG/3/idle5.png", "characters/PNG/3/idle6.png", "characters/PNG/3/idle7.png");
+    player2idle = loadAnimation("characters/3/idle1.png", "characters/3/idle2.png", "characters/3/idle3.png", "characters/3/idle4.png",
+        "characters/3/idle5.png", "characters/3/idle6.png", "characters/3/idle7.png");
 
-    player2idleleft = loadAnimation("characters/PNG/3/idle1l.png", "characters/PNG/3/idle2l.png", "characters/PNG/3/idle3l.png", "characters/PNG/3/idle4l.png",
-        "characters/PNG/3/idle5l.png", "characters/PNG/3/idle6l.png", "characters/PNG/3/idle7l.png")
+    player2idleleft = loadAnimation("characters/3/idle1l.png", "characters/3/idle2l.png", "characters/3/idle3l.png", "characters/3/idle4l.png",
+        "characters/3/idle5l.png", "characters/3/idle6l.png", "characters/3/idle7l.png")
 
-    player2run = loadAnimation("characters/PNG/3/run1.png", "characters/PNG/3/run2.png", "characters/PNG/3/run3.png", "characters/PNG/3/run4.png",
-        "characters/PNG/3/run5.png", "characters/PNG/3/run6.png", "characters/PNG/3/run7.png");
+    player2run = loadAnimation("characters/3/run1.png", "characters/3/run2.png", "characters/3/run3.png", "characters/3/run4.png",
+        "characters/3/run5.png", "characters/3/run6.png", "characters/3/run7.png");
 
-    player2runleft = loadAnimation("characters/PNG/3/run1l.png", "characters/PNG/3/run2l.png", "characters/PNG/3/run3l.png", "characters/PNG/3/run4l.png",
-        "characters/PNG/3/run5l.png", "characters/PNG/3/run6l.png", "characters/PNG/3/run7l.png")
+    player2runleft = loadAnimation("characters/3/run1l.png", "characters/3/run2l.png", "characters/3/run3l.png", "characters/3/run4l.png",
+        "characters/3/run5l.png", "characters/3/run6l.png", "characters/3/run7l.png")
 
-    player2attack = loadAnimation("characters/PNG/3/attack1.png", "characters/PNG/3/attack2.png", "characters/PNG/3/attack3.png", "characters/PNG/3/attack4.png",
-        "characters/PNG/3/attack5.png", "characters/PNG/3/attack6.png", "characters/PNG/3/attack7.png");
+    player2attack = loadAnimation("characters/3/attack1.png", "characters/3/attack2.png", "characters/3/attack3.png", "characters/3/attack4.png",
+        "characters/3/attack5.png", "characters/3/attack6.png", "characters/3/attack7.png");
 
-    player2attackleft = loadAnimation("characters/PNG/3/attack1l.png", "characters/PNG/3/attack2l.png", "characters/PNG/3/attack3l.png", "characters/PNG/3/attack4l.png",
-        "characters/PNG/3/attack5l.png", "characters/PNG/3/attack6l.png", "characters/PNG/3/attack7l.png");
+    player2attackleft = loadAnimation("characters/3/attack1l.png", "characters/3/attack2l.png", "characters/3/attack3l.png", "characters/3/attack4l.png",
+        "characters/3/attack5l.png", "characters/3/attack6l.png", "characters/3/attack7l.png");
 
-    player2die = loadAnimation("characters/PNG/3/die1.png", "characters/PNG/3/die2.png", "characters/PNG/3/die3.png", "characters/PNG/3/die4.png",
-        "characters/PNG/3/die5.png", "characters/PNG/3/die6.png", "characters/PNG/3/die7.png");
+    player2die = loadAnimation("characters/3/die1.png", "characters/3/die2.png", "characters/3/die3.png", "characters/3/die4.png",
+        "characters/3/die5.png", "characters/3/die6.png", "characters/3/die7.png");
 
-    player2jump = loadAnimation("characters/PNG/3/jump1.png", "characters/PNG/3/jump2.png", "characters/PNG/3/jump3.png",
-        "characters/PNG/3/jump4.png", "characters/PNG/3/jump5.png", "characters/PNG/3/jump6.png");
+    player2jump = loadAnimation("characters/3/jump1.png", "characters/3/jump2.png", "characters/3/jump3.png",
+        "characters/3/jump4.png", "characters/3/jump5.png", "characters/3/jump6.png");
 
-    player2jumpleft = loadAnimation("characters/PNG/3/jump1l.png", "characters/PNG/3/jump2l.png", "characters/PNG/3/jump3l.png",
-        "characters/PNG/3/jump4l.png", "characters/PNG/3/jump5l.png", "characters/PNG/3/jump6l.png");
+    player2jumpleft = loadAnimation("characters/3/jump1l.png", "characters/3/jump2l.png", "characters/3/jump3l.png",
+        "characters/3/jump4l.png", "characters/3/jump5l.png", "characters/3/jump6l.png");
 
 }
 function setup() {
