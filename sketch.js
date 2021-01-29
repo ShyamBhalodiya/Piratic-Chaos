@@ -108,7 +108,6 @@ function setup() {
     player1.addAnimation("10", player1jumpleft);
     player1.scale = 0.25;
     player1.visible = false;
-    player1.debug = true;
     player1.setCollider("rectangle", 0, 0, 800, 1000);
 
 
@@ -124,7 +123,6 @@ function setup() {
     player2.addAnimation("15", player2jumpleft);
     player2.scale = 0.25;
     player2.visible = false;
-    player2.debug = true;
     player2.setCollider("rectangle", 0, 0, 800, 1000);
 
     //player
